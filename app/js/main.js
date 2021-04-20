@@ -15,3 +15,11 @@ new Vue ({
     }
 });
 
+//Toggle
+new Vue ({
+    el: '#с',
+    data: {
+        show: true
+    }
+});
+

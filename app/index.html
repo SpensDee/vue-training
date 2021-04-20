@@ -9,15 +9,27 @@
 </head>
 <body>
 
+<main>
+    <!-- //вывод текста -->
+    <div id="a">
+    <h2>{{vue}}</р>
+  </div>
+  
+  <!-- //вывод на экран данных из инпут -->
+  <div id="b">
+    <input type="text" v-model='name'>
+    <h2>{{name}}</h2>
+  </div>
+  
+  <!-- //Toggle -->
+  <div id="с">
+    <button v-on:click="show = !show">Toggle</button>
+    <p v-show="show">Show Click</p>
+  </div>
 
-  <div id="a">
-  <p>{{vue}}</p>
-</div>
-
-<div id="b">
-  <input type="text" v-model='name'>
-  <p>{{name}}</p>
-</div>
+  
+  
+</mai>
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 <script src="js/main.min.js"></script>
